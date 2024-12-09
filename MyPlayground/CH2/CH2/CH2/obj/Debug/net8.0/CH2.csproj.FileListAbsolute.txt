@@ -1,0 +1,15 @@
+C:\Users\LZLZL\OneDrive\文档\GitHub\hello-algo\MyPlayground\CH2\CH2\CH2\bin\Debug\net8.0\CH2.exe
+C:\Users\LZLZL\OneDrive\文档\GitHub\hello-algo\MyPlayground\CH2\CH2\CH2\bin\Debug\net8.0\CH2.deps.json
+C:\Users\LZLZL\OneDrive\文档\GitHub\hello-algo\MyPlayground\CH2\CH2\CH2\bin\Debug\net8.0\CH2.runtimeconfig.json
+C:\Users\LZLZL\OneDrive\文档\GitHub\hello-algo\MyPlayground\CH2\CH2\CH2\bin\Debug\net8.0\CH2.dll
+C:\Users\LZLZL\OneDrive\文档\GitHub\hello-algo\MyPlayground\CH2\CH2\CH2\bin\Debug\net8.0\CH2.pdb
+C:\Users\LZLZL\OneDrive\文档\GitHub\hello-algo\MyPlayground\CH2\CH2\CH2\obj\Debug\net8.0\CH2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LZLZL\OneDrive\文档\GitHub\hello-algo\MyPlayground\CH2\CH2\CH2\obj\Debug\net8.0\CH2.AssemblyInfoInputs.cache
+C:\Users\LZLZL\OneDrive\文档\GitHub\hello-algo\MyPlayground\CH2\CH2\CH2\obj\Debug\net8.0\CH2.AssemblyInfo.cs
+C:\Users\LZLZL\OneDrive\文档\GitHub\hello-algo\MyPlayground\CH2\CH2\CH2\obj\Debug\net8.0\CH2.csproj.CoreCompileInputs.cache
+C:\Users\LZLZL\OneDrive\文档\GitHub\hello-algo\MyPlayground\CH2\CH2\CH2\obj\Debug\net8.0\CH2.sourcelink.json
+C:\Users\LZLZL\OneDrive\文档\GitHub\hello-algo\MyPlayground\CH2\CH2\CH2\obj\Debug\net8.0\CH2.dll
+C:\Users\LZLZL\OneDrive\文档\GitHub\hello-algo\MyPlayground\CH2\CH2\CH2\obj\Debug\net8.0\refint\CH2.dll
+C:\Users\LZLZL\OneDrive\文档\GitHub\hello-algo\MyPlayground\CH2\CH2\CH2\obj\Debug\net8.0\CH2.pdb
+C:\Users\LZLZL\OneDrive\文档\GitHub\hello-algo\MyPlayground\CH2\CH2\CH2\obj\Debug\net8.0\CH2.genruntimeconfig.cache
+C:\Users\LZLZL\OneDrive\文档\GitHub\hello-algo\MyPlayground\CH2\CH2\CH2\obj\Debug\net8.0\ref\CH2.dll
