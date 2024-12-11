@@ -1,69 +1,44 @@
-﻿//0.ListNode声明在最下面，为了保证编译器不报错。
-
+﻿
 //1.初始化。
-//ListNode n0 = new ListNode(1);
-//ListNode n1 = new ListNode(3);
-//ListNode n2 = new ListNode(2);
-//ListNode n3 = new ListNode(5);
-//ListNode n4 = new ListNode(4);
-//n0.next = n1;
-//n1.next = n2;
-//n2.next = n3;
-//n3.next = n4;
+//List<int> nums = new List<int>() { 1, 3, 2, 5, 4 };
 
-//2.增加节点。
-//void Insert(ListNode n0, ListNode P)
-//{
-//    ListNode n1 = n0.next;
-//    P.next = n1;
-//    n0.next = P;
-//}
+//int[] intArray = [1, 3, 2, 5, 4];
+//List<int> myList = [.. intArray];   //.. 表示取数组 numbers 的所有元素。这是将整个数组 numbers 的元素复制到新创建的列表 nums 中。
 
-//3.删除。
-//void Delete(ListNode n0)
-//{
-//    if (n0.next == null) return;
-//    ListNode P = n0.next;
-//    ListNode? n1 = P.next;
-//    n0.next = n1;
-//}
+//2.访问元素。
+//没什么好联系的。
 
-//4.访问。
-//ListNode? Access(ListNode? head, int index)
+//3.插入和删除元素。
+//List<int> nums = new List<int>() { 1, 3, 2, 5, 4 };
+//nums.Clear();
+//nums.Add(1);
+//nums.Add(2);
+//nums.Add(2);
+//nums.Add(5);
+//nums.Add(4);
+//nums.Insert(3, 6);
+//nums.RemoveAt(3);
+
+//4.遍历列表。
+//List<int> nums = new List<int>() { 1, 3, 2, 5, 4 };
+//void Traverse(List<int> nums)
 //{
-//    for (global::System.Int32 i = 0; i < index; i++)
+//    int count = 0;
+//    for (global::System.Int32 i = 0; i < nums.Count; i++)
 //    {
-//        if (head == null)
-//        {
-//            return null;
-//        }
-//        head = head.next;
+//        count += nums[i];
 //    }
-//    return head;
-//}
-
-//5.查询。
-//int Find(ListNode? head, int n)
-//{
-//    int index = 0;
-//    while (head != null)
+//    foreach (var i in nums)
 //    {
-//        if (head.val == n) return index;
-
-//        head = head.next;
-//        index++;
-//    }
-//    return -1;
-//}
-
-//0.ListNode的声明。
-//public class ListNode
-//{
-//    public int val;
-//    public ListNode? next;
-
-//    public ListNode(int x)
-//    {
-//        val = x;
+//        count += i;
 //    }
 //}
+
+//5.拼接列表。
+//List<int> nums = new List<int>() { 1, 3, 2, 5, 4 };
+//List<int> anotherNums = new List<int>() { 6, 8, 7, 10, 9 };
+//nums.AddRange(anotherNums);
+
+//6.排序列表。
+List<int> nums = new List<int>() { 1, 3, 2, 5, 4 };
+nums.Sort();
