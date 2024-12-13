@@ -1,21 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\CH5\\CH5\\",
+  "WorkspaceRootPath": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH5\\CH5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0BD549A1-EE79-4FCD-80FF-697BEB9E39D0}|CH5\\CH5.csproj|c:\\users\\he6106991\\documents\\github\\hello-algo\\myplayground\\ch5\\ch5\\ch5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BD549A1-EE79-4FCD-80FF-697BEB9E39D0}|CH5\\CH5.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\ch5\\ch5\\ch5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BD549A1-EE79-4FCD-80FF-697BEB9E39D0}|CH5\\CH5.csproj|solutionrelative:ch5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BD549A1-EE79-4FCD-80FF-697BEB9E39D0}|CH5\\CH5.csproj|c:\\users\\he6106991\\documents\\github\\hello-algo\\myplayground\\ch5\\ch5\\ch5\\stackimplementation\\arraystack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BD549A1-EE79-4FCD-80FF-697BEB9E39D0}|CH5\\CH5.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\ch5\\ch5\\ch5\\queueimplementation\\linkedlistqueueimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BD549A1-EE79-4FCD-80FF-697BEB9E39D0}|CH5\\CH5.csproj|solutionrelative:ch5\\queueimplementation\\linkedlistqueueimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BD549A1-EE79-4FCD-80FF-697BEB9E39D0}|CH5\\CH5.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\ch5\\ch5\\ch5\\queueoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BD549A1-EE79-4FCD-80FF-697BEB9E39D0}|CH5\\CH5.csproj|solutionrelative:ch5\\queueoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BD549A1-EE79-4FCD-80FF-697BEB9E39D0}|CH5\\CH5.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\ch5\\ch5\\ch5\\stackimplementation\\arraystack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BD549A1-EE79-4FCD-80FF-697BEB9E39D0}|CH5\\CH5.csproj|solutionrelative:ch5\\stackimplementation\\arraystack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BD549A1-EE79-4FCD-80FF-697BEB9E39D0}|CH5\\CH5.csproj|c:\\users\\he6106991\\documents\\github\\hello-algo\\myplayground\\ch5\\ch5\\ch5\\stackoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BD549A1-EE79-4FCD-80FF-697BEB9E39D0}|CH5\\CH5.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\ch5\\ch5\\ch5\\stackoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BD549A1-EE79-4FCD-80FF-697BEB9E39D0}|CH5\\CH5.csproj|solutionrelative:ch5\\stackoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BD549A1-EE79-4FCD-80FF-697BEB9E39D0}|CH5\\CH5.csproj|c:\\users\\he6106991\\documents\\github\\hello-algo\\myplayground\\ch5\\ch5\\ch5\\stackimplementation\\linkedliststack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0BD549A1-EE79-4FCD-80FF-697BEB9E39D0}|CH5\\CH5.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\ch5\\ch5\\ch5\\stackimplementation\\linkedliststack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BD549A1-EE79-4FCD-80FF-697BEB9E39D0}|CH5\\CH5.csproj|solutionrelative:ch5\\stackimplementation\\linkedliststack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,56 +34,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1309828718:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1971414452:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "LinkedListQueueImplementation.cs",
+              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH5\\CH5\\CH5\\QueueImplementation\\LinkedListQueueImplementation.cs",
+              "RelativeDocumentMoniker": "CH5\\QueueImplementation\\LinkedListQueueImplementation.cs",
+              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH5\\CH5\\CH5\\QueueImplementation\\LinkedListQueueImplementation.cs",
+              "RelativeToolTip": "CH5\\QueueImplementation\\LinkedListQueueImplementation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T03:39:31.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QueueOperation.cs",
+              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH5\\CH5\\CH5\\QueueOperation.cs",
+              "RelativeDocumentMoniker": "CH5\\QueueOperation.cs",
+              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH5\\CH5\\CH5\\QueueOperation.cs",
+              "RelativeToolTip": "CH5\\QueueOperation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:54:39.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ArrayStack.cs",
-              "DocumentMoniker": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\CH5\\CH5\\CH5\\StackImplementation\\ArrayStack.cs",
+              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH5\\CH5\\CH5\\StackImplementation\\ArrayStack.cs",
               "RelativeDocumentMoniker": "CH5\\StackImplementation\\ArrayStack.cs",
-              "ToolTip": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\CH5\\CH5\\CH5\\StackImplementation\\ArrayStack.cs",
+              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH5\\CH5\\CH5\\StackImplementation\\ArrayStack.cs",
               "RelativeToolTip": "CH5\\StackImplementation\\ArrayStack.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T16:45:36.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "LinkedListStack.cs",
-              "DocumentMoniker": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\CH5\\CH5\\CH5\\StackImplementation\\LinkedListStack.cs",
+              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH5\\CH5\\CH5\\StackImplementation\\LinkedListStack.cs",
               "RelativeDocumentMoniker": "CH5\\StackImplementation\\LinkedListStack.cs",
-              "ToolTip": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\CH5\\CH5\\CH5\\StackImplementation\\LinkedListStack.cs",
+              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH5\\CH5\\CH5\\StackImplementation\\LinkedListStack.cs",
               "RelativeToolTip": "CH5\\StackImplementation\\LinkedListStack.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAIwEAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T02:01:33.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T02:01:33.282Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "StackOperation.cs",
-              "DocumentMoniker": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\CH5\\CH5\\CH5\\StackOperation.cs",
+              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH5\\CH5\\CH5\\StackOperation.cs",
               "RelativeDocumentMoniker": "CH5\\StackOperation.cs",
-              "ToolTip": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\CH5\\CH5\\CH5\\StackOperation.cs",
+              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH5\\CH5\\CH5\\StackOperation.cs",
               "RelativeToolTip": "CH5\\StackOperation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T01:55:42.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T01:55:42.988Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\CH5\\CH5\\CH5\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH5\\CH5\\CH5\\Program.cs",
               "RelativeDocumentMoniker": "CH5\\Program.cs",
-              "ToolTip": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\CH5\\CH5\\CH5\\Program.cs",
+              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH5\\CH5\\CH5\\Program.cs",
               "RelativeToolTip": "CH5\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAIA9wBgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T01:06:52.582Z",
               "EditorCaption": ""
