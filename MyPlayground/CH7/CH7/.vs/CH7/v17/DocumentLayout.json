@@ -1,0 +1,63 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH7\\CH7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B24E005-FDAE-4918-9777-F3598DA80C9B}|CH7\\CH7.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\ch7\\ch7\\ch7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B24E005-FDAE-4918-9777-F3598DA80C9B}|CH7\\CH7.csproj|solutionrelative:ch7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B24E005-FDAE-4918-9777-F3598DA80C9B}|CH7\\CH7.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\ch7\\ch7\\ch7\\binarytree\\binarytreeoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B24E005-FDAE-4918-9777-F3598DA80C9B}|CH7\\CH7.csproj|solutionrelative:ch7\\binarytree\\binarytreeoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH7\\CH7\\CH7\\Program.cs",
+              "RelativeDocumentMoniker": "CH7\\Program.cs",
+              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH7\\CH7\\CH7\\Program.cs",
+              "RelativeToolTip": "CH7\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T03:22:56.016Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BinaryTreeOperation.cs",
+              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH7\\CH7\\CH7\\BinaryTree\\BinaryTreeOperation.cs",
+              "RelativeDocumentMoniker": "CH7\\BinaryTree\\BinaryTreeOperation.cs",
+              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH7\\CH7\\CH7\\BinaryTree\\BinaryTreeOperation.cs",
+              "RelativeToolTip": "CH7\\BinaryTree\\BinaryTreeOperation.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwCIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T03:53:04.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1309828718:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1971414452:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
