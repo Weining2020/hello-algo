@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH4\\CH4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF4C0D29-B6BA-49BD-9C9F-BCA0FAF6F836}|CH4\\CH4.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\ch4\\ch4\\ch4\\forlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF4C0D29-B6BA-49BD-9C9F-BCA0FAF6F836}|CH4\\CH4.csproj|solutionrelative:ch4\\forlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EF4C0D29-B6BA-49BD-9C9F-BCA0FAF6F836}|CH4\\CH4.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\ch4\\ch4\\ch4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF4C0D29-B6BA-49BD-9C9F-BCA0FAF6F836}|CH4\\CH4.csproj|solutionrelative:ch4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF4C0D29-B6BA-49BD-9C9F-BCA0FAF6F836}|CH4\\CH4.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\ch4\\ch4\\ch4\\forlinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF4C0D29-B6BA-49BD-9C9F-BCA0FAF6F836}|CH4\\CH4.csproj|solutionrelative:ch4\\forlinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4C0D29-B6BA-49BD-9C9F-BCA0FAF6F836}|CH4\\CH4.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\ch4\\ch4\\ch4\\forlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4C0D29-B6BA-49BD-9C9F-BCA0FAF6F836}|CH4\\CH4.csproj|solutionrelative:ch4\\forlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ForList.cs",
               "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH4\\CH4\\CH4\\ForList.cs",
               "RelativeDocumentMoniker": "CH4\\ForList.cs",
@@ -47,19 +47,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ForLinkedList.cs",
               "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH4\\CH4\\CH4\\ForLinkedList.cs",
               "RelativeDocumentMoniker": "CH4\\ForLinkedList.cs",
               "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH4\\CH4\\CH4\\ForLinkedList.cs",
               "RelativeToolTip": "CH4\\ForLinkedList.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T02:39:47.312Z"
+              "WhenOpened": "2024-12-10T02:39:47.312Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH4\\CH4\\CH4\\Program.cs",
               "RelativeDocumentMoniker": "CH4\\Program.cs",
@@ -67,7 +68,8 @@
               "RelativeToolTip": "CH4\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T02:08:37.115Z"
+              "WhenOpened": "2024-12-10T02:08:37.115Z",
+              "EditorCaption": ""
             }
           ]
         }
