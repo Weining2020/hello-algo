@@ -22,7 +22,7 @@ P.left = n2;
 n1.left = n2; //Question:删除节点时，P 的左子节点依然是 n2，但我们什么都不做？答：这是可以的，因为 P 会被垃圾回收（GC）。P 本身仍存在于内存中，且 P.left 依然是 n2，但 P 已不再被任何其他节点引用。在 C# 中，当对象不再被任何活动的引用所访问时，垃圾回收器（Garbage Collector, GC）会自动回收这部分内存。也就是说，虽然 P.left 依然指向 n2，但因为 P 自身不再是活动节点，其引用关系对于二叉树的逻辑已不再重要。
 
 //二叉树节点类。
-public class TreeNode //以前没见过。
+public class TreeNode //以前没见过。从本质上讲，你自己写的二叉树节点类 TreeNode 确实可以看作是对 链表数据结构的一种扩展和模仿。二叉树节点类和链表节点的结构非常相似，都是通过指针（或引用）来链接其他节点的。
 {
     public int? val;
     public TreeNode? left;
