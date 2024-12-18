@@ -3,10 +3,10 @@
 
 //初始化小顶堆。
 //注意！！在 C# 的 PriorityQueue<TElement, TPriority> 中，比较器（Comparer<TPriority>）是根据 Priority 的值来比较两个元素的优先级，而不是直接比较 Element 的值。
-PriorityQueue<int, int> minHeap = new PriorityQueue<int, int>(); //PriorityQueue<TElement, TPriority> 默认实现的是 小顶堆。因此这里的调用构造器没有传参。在没有提供 Comparer<T> 的情况下，PriorityQueue 使用 默认的比较器（Comparer<T>.Default）来比较优先级。对于 int 类型，Comparer<int>.Default 是按升序排序，即最小值具有最高优先级。
+PriorityQueue<int, int> minHeap = new PriorityQueue<int, int>(); //PriorityQueue<TElement, TPriority> 默认实现的是 小顶堆。因此这里的调用构造器没有传参。在没有提供 Comparer<T> 的情况下，PriorityQueue 使用 默认的比较器（Comparer<T>.Default）来比较优先级。对于 int 类型，Comparer<int>.Default 是按升序排序，即最小的 TPriority 值具有最高的优先级。
 //初始化大顶堆（使用 lambda 表达式修改 Comparer 即可）。
 PriorityQueue<int, int> maxHeap = new PriorityQueue<int, int>(Comparer<int>.Create((x, y) => y.CompareTo(x))); //这里Comparer<int>.Create()这个静态方法接收一个Comparison<int>类型的实例（鼠标放Create上看到的），而Comparison<int>类型是一个内置委托类型型，其签名为：public delegate int Comparison<in T>(T x, T y);。Create()接收的comparison参数，只要是满足输入两个int，能返回一个int的方法就行，而对于我们写的lambda表达式，刚好方法体内y.CompareTo(x)就能返回一个int，因此整个lambda表达式满足了作为comparison的要求，而成为了Create()的参数。
-//注意！！y.CompareTo(x)是y-x。在大顶堆中，我们要和小顶堆相反，即需要最大值拥有最高优先级。当比较器返回负值时，意味着y-x<0，即y<x，此时x比y优先级更高；当比较器返回正值时，意味着y-x>0，即y>x，此时y比x优先级更高。因此，对于两个元素之间的比较，本例中的比较器返回负值时，x比y优先级更高；本例中的比较器返回正值时，y比x优先级更高。总之，比较器返回的 负值/正值 会作为一个信号，诉 PriorityQueue 如何排列两个元素。
+//注意！！y.CompareTo(x)是y-x。在大顶堆中，我们要和小顶堆相反，即需要最大的 TPriority 值具有最高的优先级。当比较器返回负值时，意味着y-x<0，即y<x，此时x比y优先级更高；当比较器返回正值时，意味着y-x>0，即y>x，此时y比x优先级更高。因此，对于两个元素之间的比较，本例中的比较器返回负值时，x比y优先级更高；本例中的比较器返回正值时，y比x优先级更高。总之，比较器返回的 负值/正值 会作为一个信号，诉 PriorityQueue 如何排列两个元素。
 
 //元素入堆。
 maxHeap.Enqueue(1, 1);
