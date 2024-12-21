@@ -1,17 +1,46 @@
-﻿//基于邻接表实现的无向图类。我没找到Vertex这个类的声明，怀疑至少有int val这个字段。
-using System.Collections.Generic;
+﻿/*
+using hello_algo.utils;
 
-class GraphAdjList
+//深度优先遍历辅助函数。//这个设计太牛了！
+void DFS(GraphAdjList graph, HashSet<Vertex> visited, List<Vertex> res, Vertex vet)
+{
+    res.Add(vet);     // 记录访问顶点 //没错我想过了，第一次上来是把startVertex加入到res中。之后每次在这里加顶点到res都是 已经pass ifcheck的前提下了，即res里不可能有过该节点，不会重复，没问题。
+    visited.Add(vet); // 标记该顶点已被访问
+    // 遍历该顶点的所有邻接顶点
+    foreach (Vertex adjVet in graph.adjList[vet])
+    { //Question:我不能理解的报错？
+        if (visited.Contains(adjVet))
+        {
+            continue; // 跳过已被访问的顶点                             
+        }
+        // 递归访问邻接顶点
+        DFS(graph, visited, res, adjVet);
+    }
+}
+
+//深度优先遍历。
+// 使用邻接表来表示图，以便获取指定顶点的所有邻接顶点
+List<Vertex> GraphDFS(GraphAdjList graph, Vertex startVet)
+{
+    // 顶点遍历序列
+    List<Vertex> res = [];
+    // 哈希集合，用于记录已被访问过的顶点
+    HashSet<Vertex> visited = [];
+    DFS(graph, visited, res, startVet);
+    return res;
+}
+*/
+public class GraphAdjList
 {
     // 邻接表，key：顶点，value：该顶点的所有邻接顶点
     public Dictionary<Vertex, List<Vertex>> adjList;
 
-    //构造函数。
-    public GraphAdjList(Vertex[][] edges) //用户传入一个锯齿状数组，其中每一条边由 边的两个顶点 来表示。我认为其实Vertex[][]的第一个[]没什么意义，只能表示后面的Vertex[]（即具体的某边）是这个Vertex[][]的具体第几个边而已，没什么用，b/c每条边在Vertex[][]的index无所谓，用不到。
+    /* 构造函数 */
+    public GraphAdjList(Vertex[][] edges)
     {
         adjList = [];
         // 添加所有顶点和边
-        foreach (Vertex[] edge in edges) //拿到具体每条边。对每条边这个Vertex[]类型的信息，进行顶点和边的加入。
+        foreach (Vertex[] edge in edges)
         {
             AddVertex(edge[0]);
             AddVertex(edge[1]);
@@ -19,23 +48,23 @@ class GraphAdjList
         }
     }
 
-    //获取顶点数量。
+    /* 获取顶点数量 */
     int Size()
     {
         return adjList.Count;
     }
 
-    //添加边。
+    /* 添加边 */
     public void AddEdge(Vertex vet1, Vertex vet2)
     {
-        if (!adjList.ContainsKey(vet1) || !adjList.ContainsKey(vet2) || vet1 == vet2) //别忘了输入两个相同顶点也不行。
+        if (!adjList.ContainsKey(vet1) || !adjList.ContainsKey(vet2) || vet1 == vet2)
             throw new InvalidOperationException();
         // 添加边 vet1 - vet2
         adjList[vet1].Add(vet2);
         adjList[vet2].Add(vet1);
     }
-    //删除边 。    //和AddEdge()非常类似。
 
+    /* 删除边 */
     public void RemoveEdge(Vertex vet1, Vertex vet2)
     {
         if (!adjList.ContainsKey(vet1) || !adjList.ContainsKey(vet2) || vet1 == vet2)
@@ -45,18 +74,16 @@ class GraphAdjList
         adjList[vet2].Remove(vet1);
     }
 
-
-    //添加顶点。
+    /* 添加顶点 */
     public void AddVertex(Vertex vet)
     {
         if (adjList.ContainsKey(vet))
-            return; //确实，当顶点已存在时不该抛异常而是直接返回。
+            return;
         // 在邻接表中添加一个新链表
-        adjList.Add(vet, []); //确实，新顶点对应的邻接列表应该为空列表，因为只加了新顶点，没有加边。
+        adjList.Add(vet, []);
     }
 
-
-    //删除顶点。//这个很直观。
+    /* 删除顶点 */
     public void RemoveVertex(Vertex vet)
     {
         if (!adjList.ContainsKey(vet))
@@ -69,7 +96,8 @@ class GraphAdjList
             list.Remove(vet);
         }
     }
-     //打印邻接表。 //我甚至觉得教程方法写的有点啰嗦了。
+
+    /* 打印邻接表 */
     public void Print()
     {
         Console.WriteLine("邻接表 =");
@@ -77,7 +105,7 @@ class GraphAdjList
         {
             List<int> tmp = [];
             foreach (Vertex vertex in pair.Value)
-                tmp.Add(vertex.val); //这是根据Vertex类声明来的，但是我找不到Vertex类声明。
+                tmp.Add(vertex.val);
             Console.WriteLine(pair.Key.val + ": [" + string.Join(", ", tmp) + "],");
         }
     }
