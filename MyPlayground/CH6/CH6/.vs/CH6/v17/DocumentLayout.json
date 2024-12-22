@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH6\\CH6\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{53C6A31D-8730-46F4-BB5E-02D4DFFE03BE}|CH6\\CH6.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\ch6\\ch6\\ch6\\hashtable\\hashtableenhancement\\hashmapopenaddressing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C6A31D-8730-46F4-BB5E-02D4DFFE03BE}|CH6\\CH6.csproj|solutionrelative:ch6\\hashtable\\hashtableenhancement\\hashmapopenaddressing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{53C6A31D-8730-46F4-BB5E-02D4DFFE03BE}|CH6\\CH6.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\ch6\\ch6\\ch6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53C6A31D-8730-46F4-BB5E-02D4DFFE03BE}|CH6\\CH6.csproj|solutionrelative:ch6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,6 +43,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HashMapOpenAddressing.cs",
+              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH6\\CH6\\CH6\\HashTable\\HashTableEnhancement\\HashMapOpenAddressing.cs",
+              "RelativeDocumentMoniker": "CH6\\HashTable\\HashTableEnhancement\\HashMapOpenAddressing.cs",
+              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH6\\CH6\\CH6\\HashTable\\HashTableEnhancement\\HashMapOpenAddressing.cs",
+              "RelativeToolTip": "CH6\\HashTable\\HashTableEnhancement\\HashMapOpenAddressing.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwFIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T00:17:23.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH6\\CH6\\CH6\\Program.cs",
               "RelativeDocumentMoniker": "CH6\\Program.cs",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ArrayHashMap.cs",
               "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH6\\CH6\\CH6\\HashTable\\HashTableImplementation\\ArrayHashMap.cs",
               "RelativeDocumentMoniker": "CH6\\HashTable\\HashTableImplementation\\ArrayHashMap.cs",
@@ -59,12 +76,11 @@
               "RelativeToolTip": "CH6\\HashTable\\HashTableImplementation\\ArrayHashMap.cs",
               "ViewState": "AgIAAFwAAAAAAAAAAAAAAGYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T17:24:10.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T17:24:10.537Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HashTableOperation.cs",
               "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH6\\CH6\\CH6\\HashTable\\HashTableOperation.cs",
               "RelativeDocumentMoniker": "CH6\\HashTable\\HashTableOperation.cs",
@@ -72,12 +88,11 @@
               "RelativeToolTip": "CH6\\HashTable\\HashTableOperation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T17:23:21.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T17:23:21.988Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BuiltInHash.cs",
               "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH6\\CH6\\CH6\\BuiltInHash.cs",
               "RelativeDocumentMoniker": "CH6\\BuiltInHash.cs",
@@ -85,8 +100,7 @@
               "RelativeToolTip": "CH6\\BuiltInHash.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T17:23:13.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T17:23:13.065Z"
             }
           ]
         }

@@ -64,7 +64,7 @@ public class LinkedListStack
         }
         ListNode? listNode = stackPeek;
         int[] res = new int[Size()];
-        for (int i = stkSize - 1; i >= 0; i--)
+        for (int i = stkSize - 1; i >= 0; i--) //挺好，看清楚，这里是从链表头结点（栈顶）开始，往array里塞元素，即头结点会塞到res[0]里。
         {
             res[i] = listNode!.val;
             listNode = listNode!.next;

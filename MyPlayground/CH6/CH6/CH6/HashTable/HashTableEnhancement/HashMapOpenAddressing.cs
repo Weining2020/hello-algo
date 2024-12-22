@@ -1,4 +1,4 @@
-﻿/*
+﻿
 //开放寻址哈希表。底层是环形数组。这不是在用链式地址来改进哈希表，忘掉链式地址改进哈希表用的 List<List<Pair>>结构吧！跟这无关。
 public class Pair //我写在这防止报错。
 {
@@ -17,7 +17,7 @@ public class HashMapOpenAddressing
     double loadThres = 2.0 / 3.0;
     int extendRatio = 2;
     Pair[] buckets; //底层用的是Pair数组，即我们追求不同的key（即使有可能对应同一哈希值）的键值对，应存放在Pair数组的不同index上。
-    Pair TOMBSTONE = new Pair(-1, "-1"); //-1 和 "-1" 是人为设定的特殊值，表示这是一个占位键值对，并没有实际的意义，纯粹是为了标记那些已经被删除的槽位。
+    Pair TOMBSTONE = new Pair(-1, "-1"); //TOMBSTONE字段依然是一个Pair实例，只是其中保存很离谱的值以警示这是个TOMBSTONE而不是有效有意义的的Pair实例，比如这里-1 和 "-1" 是人为设定的特殊值，表示这是一个占位键值对，并没有实际的意义，纯粹是为了标记那些已经被删除的槽位。
     //构造方法。
     public HashMapOpenAddressing()
     {
@@ -64,7 +64,7 @@ public class HashMapOpenAddressing
             // 计算桶索引，越过尾部则返回头部
             index = (index + 1) % capacity; //这种越过尾部返回头部继续遍历的情况确实有，继续执行代码就是了，最坏的情况就是本来全部的索引位置上都有有效Pair实例，无法找到一个buckets[index] == null的index来停止while循环，因此程序陷入死循环，其实这种情况肯定也触发了 负载因子过高而执行扩容，因此这个情况不会真实发生。
         }
-        // 若 key 不存在，则返回添加点的索引。//即 如果在整个探测路径中没有遇到 TOMBSTONE（firstTombstone == -1），则返回当前的 index，也就是第一个空桶的位置，作为可以插入的索引（因为此时一定满足了buckets[index] == null, 即index索引对应的Pair实例必为空，不然没法跳出while循环）。如果在探测路径中遇到了 TOMBSTONE（firstTombstone != -1），则优先返回第一个 TOMBSTONE 的位置，作为插入点的索引。
+        // 若 key 不存在，则返回添加点的索引。//即 如果在整个探测路径中没有遇到 TOMBSTONE（firstTombstone 依然== -1），则返回当前的 index，也就是第一个空桶（没碰到TOMBSTONE就代表没碰到过空桶）的位置，作为可以插入的索引（因为此时一定满足了buckets[index] == null, 即index索引对应的Pair实例必为空，不然没法跳出while循环）。如果在探测路径中遇到过 TOMBSTONE（firstTombstone != -1），则优先返回第一个 TOMBSTONE 的位置（即此时firstTomstone的值就是第一个TOMBSTONE的值，b/c之前一定在碰到第一个TOMBSTONE时把firstTombstone的值更新了），作为插入点的索引。
         return firstTombstone == -1 ? index : firstTombstone;
     }
     //查询操作。
@@ -79,7 +79,7 @@ public class HashMapOpenAddressing
         //    - 说明哈希表中没有找到用户要查找的目标键值对。
 
         // 2. buckets[index] == TOMBSTONE:
-        //    - 当前索引位置之前存储过一个键值对，但该键值对已经被删除。
+        //    - 当前索引位置之前存储过一个键值对，但该键值对已经被删除。至于为什么说明该键值对已经被删除，原因是TOMBSTONE所在的位置必是原来的键值对已经被删除，b/c这是TOMBSTONE的来源，键值对被删除会留下TOMBSTONE。
         //    - 查找时需要跳过该位置，继续探测路径。
         //    - 说明哈希表中没有找到用户要查找的目标键值对。
 
@@ -87,7 +87,7 @@ public class HashMapOpenAddressing
         //    - 当前索引位置存储着一个有效的键值对。
         //    - 如果此键值对的 key 与用户输入的 key 相同，则找到了目标键值对。
 
-        if (buckets[index] != null && buckets[index] != TOMBSTONE) //这个if的原理是，排除三种情况之二，剩下的一种情况会出目标值。之所以没判断buckets[index].key == key，是因为FindBucket() 方法本身 已经处理了 buckets[index].key == key 的判断。这里的if逻辑就是用来判断 buckets[index] 是否是一个有效的键值对。
+        if (buckets[index] != null && buckets[index] != TOMBSTONE) //这个if的原理是，排除三种情况之二，剩下的一种情况会出目标值。之所以没判断buckets[index].key == key，是因为FindBucket() 方法本身 已经处理了 buckets[index].key == key 的判断，我想过了我很确定当buckets[index]是个有效键值对时，这就是我们要找的那个键对值，这是通过研究FindBucket()方法得出的结论，只有在if (buckets[index].key == key)这个block中的两个return才能出现让FindBucket()返回一个用户输入key被找到的桶索引。这里的if逻辑就是用来判断 buckets[index] 是否是一个有效的键值对。
         {
             return buckets[index].val;
         }
