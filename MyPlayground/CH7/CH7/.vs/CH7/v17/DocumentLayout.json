@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -31,21 +31,7 @@
               "ViewState": "AgIAAHQAAAAAAAAAAAAwwIsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T03:22:56.016Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BinarySearchTreeOperation.cs",
-              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH7\\CH7\\CH7\\BinarySearchTree\\BinarySearchTreeOperation.cs",
-              "RelativeDocumentMoniker": "CH7\\BinarySearchTree\\BinarySearchTreeOperation.cs",
-              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH7\\CH7\\CH7\\BinarySearchTree\\BinarySearchTreeOperation.cs",
-              "RelativeToolTip": "CH7\\BinarySearchTree\\BinarySearchTreeOperation.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAIwI0AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T00:21:00.848Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -54,6 +40,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1971414452:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BinarySearchTreeOperation.cs",
+              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH7\\CH7\\CH7\\BinarySearchTree\\BinarySearchTreeOperation.cs",
+              "RelativeDocumentMoniker": "CH7\\BinarySearchTree\\BinarySearchTreeOperation.cs",
+              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH7\\CH7\\CH7\\BinarySearchTree\\BinarySearchTreeOperation.cs*",
+              "RelativeToolTip": "CH7\\BinarySearchTree\\BinarySearchTreeOperation.cs*",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T00:21:00.848Z",
+              "EditorCaption": ""
             }
           ]
         }
