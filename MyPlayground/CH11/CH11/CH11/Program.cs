@@ -1,54 +1,35 @@
-﻿void Merge(int[] nums, int left, int mid, int right)
+﻿void CoutingSort(int[] nums)
 {
-    int[] tmp = new int[right - left + 1];
-    int i = left;
-    int j = mid + 1;
-    int k = 0;
-    while (i <= mid && j <= right)
+    int m = 0;
+    foreach (int num in nums)
     {
-        if (nums[i] <= nums[j])
-        {
-            tmp[k] = nums[i];
-            i++;
-            k++;
-        }
-        else
-        {
-            tmp[k] = nums[j];
-            j++;
-            k++;
-        }
+        m = Math.Max(m, num);
     }
 
-    while (i <= mid)
+    int[] counter = new int[m + 1];
+    foreach (int num in nums)
     {
-        tmp[k] = nums[i];
-        i++;
-        k++;
-    }
-    while (j <= mid)
-    {
-        tmp[k] = nums[j];
-        j++;
-        k++;
+        counter[num]++;
     }
 
-    for (global::System.Int32 x = 0; x < tmp.Length; x++)
+    int[] prefix = new int[counter.Length];
+    prefix[0] = counter[0]; //想想吧，这个有必要。前缀和是元素值之和，不是元素索引之和。因此prefix上来第一个元素值不一定是0，而是取决于counter数组元素值。
+    for (global::System.Int32 i = 1; i < prefix.Length; i++)
     {
-        nums[x + left] = tmp[x];
-    }
-}
-void MergeSort(int[] nums, int left, int right)
-{
-    if (left >= right)
-    {
-        return;
+        prefix[i] = prefix[i - 1] + counter[i];
     }
 
-    int mid = left + (right - left) / 2;
+    int[] res = new int[nums.Length];
+    for (global::System.Int32 i = nums.Length - 1; i >= 0; i--)
+    {
+        int num = nums[i]; //用num接着nums数组的元素。
+        int lastIndex = prefix[num] - 1; // 找到 num 在结果数组中的位置
+        res[lastIndex] = num; //填充nums的元素num到合适索引上。
+        prefix[num]--; // 更新前缀和，确保稳定排序
+    }
 
-    MergeSort(nums, left, mid);
-    MergeSort(nums, mid + 1, right);
-
-    Merge(nums, left, mid, right);
+    for (global::System.Int32 i = 0; i < nums.Length; i++)
+    {
+        nums[i] = res[i];
+    }
 }
