@@ -1,0 +1,63 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH14\\CH14\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDECEED1-BD8B-4F9A-B7FB-F073676022A4}|CH14\\CH14.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\ch14\\ch14\\ch14\\14.3\\14.3.2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDECEED1-BD8B-4F9A-B7FB-F073676022A4}|CH14\\CH14.csproj|solutionrelative:ch14\\14.3\\14.3.2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDECEED1-BD8B-4F9A-B7FB-F073676022A4}|CH14\\CH14.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\ch14\\ch14\\ch14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDECEED1-BD8B-4F9A-B7FB-F073676022A4}|CH14\\CH14.csproj|solutionrelative:ch14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "14.3.2.cs",
+              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH14\\CH14\\CH14\\14.3\\14.3.2.cs",
+              "RelativeDocumentMoniker": "CH14\\14.3\\14.3.2.cs",
+              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH14\\CH14\\CH14\\14.3\\14.3.2.cs",
+              "RelativeToolTip": "CH14\\14.3\\14.3.2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T02:43:45.373Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1309828718:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1971414452:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH14\\CH14\\CH14\\Program.cs",
+              "RelativeDocumentMoniker": "CH14\\Program.cs",
+              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH14\\CH14\\CH14\\Program.cs",
+              "RelativeToolTip": "CH14\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T12:57:49.933Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
