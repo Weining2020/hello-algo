@@ -3,7 +3,7 @@
 
 int MinCostClimbingStairsDP(int[] cost)
 {
-    int n = cost.Length - 1; //没错，一共还是n阶，共n + 1个元素（其中index为0的元素是0阶的代价，无意义）。
+    int n = cost.Length - 1; //没错，一共还是n阶，即从cost[1]~cost[n - 1]共n个元素。
     if (n == 1 || n == 2)
     {
         return cost[n];
