@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH13\\CH13\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{84A32256-5042-4A41-A1F4-E285D8CBDE6F}|CH13\\CH13.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\ch13\\ch13\\ch13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84A32256-5042-4A41-A1F4-E285D8CBDE6F}|CH13\\CH13.csproj|solutionrelative:ch13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,22 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH13\\CH13\\CH13\\Program.cs",
-              "RelativeDocumentMoniker": "CH13\\Program.cs",
-              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH13\\CH13\\CH13\\Program.cs",
-              "RelativeToolTip": "CH13\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T04:18:03.19Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1309828718:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
