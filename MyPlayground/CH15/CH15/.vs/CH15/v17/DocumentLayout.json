@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH15\\CH15\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B66452F-7280-477F-A8D2-B8D50F2E74D4}|CH15\\CH15.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\ch15\\ch15\\ch15\\15.4\\15.4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B66452F-7280-477F-A8D2-B8D50F2E74D4}|CH15\\CH15.csproj|solutionrelative:ch15\\15.4\\15.4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7B66452F-7280-477F-A8D2-B8D50F2E74D4}|CH15\\CH15.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\ch15\\ch15\\ch15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B66452F-7280-477F-A8D2-B8D50F2E74D4}|CH15\\CH15.csproj|solutionrelative:ch15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "15.4.cs",
-              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH15\\CH15\\CH15\\15.4\\15.4.cs",
-              "RelativeDocumentMoniker": "CH15\\15.4\\15.4.cs",
-              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH15\\CH15\\CH15\\15.4\\15.4.cs",
-              "RelativeToolTip": "CH15\\15.4\\15.4.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAIwCcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T01:14:49.493Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1309828718:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
@@ -43,13 +26,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH15\\CH15\\CH15\\Program.cs",
               "RelativeDocumentMoniker": "CH15\\Program.cs",
               "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH15\\CH15\\CH15\\Program.cs",
               "RelativeToolTip": "CH15\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAIwCUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T00:58:11.223Z",
               "EditorCaption": ""
