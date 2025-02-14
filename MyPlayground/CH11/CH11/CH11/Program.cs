@@ -1,55 +1,25 @@
-﻿//归并排序。
-void Merge(int[] nums, int left, int mid,int right)
+﻿void Swap(int[] nums, int i, int j)
+{
+    (nums[i], nums[j]) = (nums[j], nums[i]);
+}
+
+int Partition(int[] nums, int left, int right)
 {
     int i = left;
-    int j = mid + 1;
-    int[] tmp = new int[right - left + 1];
-    int k = 0;
-
-    while (i <= mid && j <= right)
+    int j = right;
+    int bas = nums[left];
+    while (i < j)   //=的时候呢？
     {
-        if (nums[i] <= nums[j])
+        while (i < j && nums[j] >= bas)
         {
-            tmp[k] = nums[i];
+            j--;
+        }
+        while (i < j && nums[i] <= bas)
+        {
             i++;
-            k++;
         }
-        else
-        {
-            tmp[k] = nums[j];
-            j++;
-            k++;
-        }
+        Swap(nums, i, j);
     }
-
-    while (i <= mid)
-    {
-        tmp[k] = nums[i];
-        i++;
-        k++;
-    }
-    while (j <= right)
-    {
-        tmp[k] = nums[j];
-        j++;
-        k++;
-    }
-
-    for (global::System.Int32 m = 0; m < tmp.Length; m++)
-    {
-        nums[m + left] = tmp[m];
-    }
-}
-void MergeSort(int[] num, int left, int right)
-{
-    if (left >= right)
-    {
-        return;
-    }
-
-    int mid = left + (right - left) / 2;
-    MergeSort(num, left, mid);
-    MergeSort(num, mid + 1, right);
-
-    Merge(num, left, mid, right);
+    Swap(nums, i, left);
+    return i;
 }

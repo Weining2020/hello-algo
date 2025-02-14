@@ -1,4 +1,5 @@
-﻿//方法一：暴力枚举。
+﻿/*
+//方法一：暴力枚举。
 
 int[] TwoSumBruteForce(int[] nums, int target)
 {
@@ -14,3 +15,4 @@ int[] TwoSumBruteForce(int[] nums, int target)
     }
     return Array.Empty<int>();
 }
+*/
