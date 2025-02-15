@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH11\\CH11\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{141E6EE8-1267-4998-BC96-252EB00060A1}|CH11\\CH11.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\ch11\\ch11\\ch11\\11.6\\11.6.1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{141E6EE8-1267-4998-BC96-252EB00060A1}|CH11\\CH11.csproj|solutionrelative:ch11\\11.6\\11.6.1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{141E6EE8-1267-4998-BC96-252EB00060A1}|CH11\\CH11.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\ch11\\ch11\\ch11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{141E6EE8-1267-4998-BC96-252EB00060A1}|CH11\\CH11.csproj|solutionrelative:ch11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH11\\CH11\\CH11\\Program.cs",
               "RelativeDocumentMoniker": "CH11\\Program.cs",
               "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH11\\CH11\\CH11\\Program.cs",
               "RelativeToolTip": "CH11\\Program.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAADwvzYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T20:59:48.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "11.6.1.cs",
-              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH11\\CH11\\CH11\\11.6\\11.6.1.cs",
-              "RelativeDocumentMoniker": "CH11\\11.6\\11.6.1.cs",
-              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\CH11\\CH11\\CH11\\11.6\\11.6.1.cs",
-              "RelativeToolTip": "CH11\\11.6\\11.6.1.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADMAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T20:59:46.323Z",
               "EditorCaption": ""
             }
           ]
