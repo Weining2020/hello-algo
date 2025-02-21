@@ -43,3 +43,4 @@
 //6.排序列表。
 //List<int> nums = new List<int>() { 1, 3, 2, 5, 4 };
 //nums.Sort();
+*/
