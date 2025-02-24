@@ -1,110 +1,39 @@
-﻿/* 列表类 */
-class MyList
+﻿//1.初始化列表。
+List<int> nums1 = new List<int>() { 1, 2, 3, 4, 5 };
+//好像有第二种方式。忘了。
+
+//2.访问元素+给元素赋值。
+int Access(List<int> nums, int index)
 {
-    private int[] arr;           // 数组（存储列表元素）
-    private int arrCapacity = 10;    // 列表容量
-    private int arrSize = 0;         // 列表长度（当前元素数量）
-    private readonly int extendRatio = 2;  // 每次列表扩容的倍数
-
-    /* 构造方法 */
-    public MyList()
-    {
-        arr = new int[arrCapacity];
-    }
-
-    /* 获取列表长度（当前元素数量）*/
-    public int Size()
-    {
-        return arrSize;
-    }
-
-    /* 获取列表容量 */
-    public int Capacity()
-    {
-        return arrCapacity;
-    }
-
-    /* 访问元素 */
-    public int Get(int index)
-    {
-        // 索引如果越界，则抛出异常，下同
-        if (index < 0 || index >= arrSize)
-            throw new IndexOutOfRangeException("索引越界");
-        return arr[index];
-    }
-
-    /* 更新元素 */
-    public void Set(int index, int num)
-    {
-        if (index < 0 || index >= arrSize)
-            throw new IndexOutOfRangeException("索引越界");
-        arr[index] = num;
-    }
-
-    /* 在尾部添加元素 */
-    public void Add(int num)
-    {
-        // 元素数量超出容量时，触发扩容机制
-        if (arrSize == arrCapacity)
-            ExtendCapacity();
-        arr[arrSize] = num;
-        // 更新元素数量
-        arrSize++;
-    }
-
-    /* 在中间插入元素 */
-    public void Insert(int index, int num)
-    {
-        if (index < 0 || index >= arrSize)
-            throw new IndexOutOfRangeException("索引越界");
-        // 元素数量超出容量时，触发扩容机制
-        if (arrSize == arrCapacity)
-            ExtendCapacity();
-        // 将索引 index 以及之后的元素都向后移动一位
-        for (int j = arrSize - 1; j >= index; j--)
-        {
-            arr[j + 1] = arr[j];
-        }
-        arr[index] = num;
-        // 更新元素数量
-        arrSize++;
-    }
-
-    /* 删除元素 */
-    public int Remove(int index)
-    {
-        if (index < 0 || index >= arrSize)
-            throw new IndexOutOfRangeException("索引越界");
-        int num = arr[index];
-        // 将将索引 index 之后的元素都向前移动一位
-        for (int j = index; j < arrSize - 1; j++)
-        {
-            arr[j] = arr[j + 1];
-        }
-        // 更新元素数量
-        arrSize--;
-        // 返回被删除的元素
-        return num;
-    }
-
-    /* 列表扩容 */
-    public void ExtendCapacity()
-    {
-        // 新建一个长度为 arrCapacity * extendRatio 的数组，并将原数组复制到新数组
-        Array.Resize(ref arr, arrCapacity * extendRatio);
-        // 更新列表容量
-        arrCapacity = arr.Length;
-    }
-
-    /* 将列表转换为数组 */
-    public int[] ToArray()
-    {
-        // 仅转换有效长度范围内的列表元素
-        int[] arr = new int[arrSize];
-        for (int i = 0; i < arrSize; i++)
-        {
-            arr[i] = Get(i);
-        }
-        return arr;
-    }
+    return nums[index];
 }
+
+//3.添加/删除元素。
+nums1.Clear();
+nums1.Add(1);
+nums1.Add(2);
+nums1.Add(3);
+nums1.Add(4);
+nums1.Add(5);
+nums1.Insert(3, 6);
+nums1.Insert(4, 7);
+nums1.RemoveAt(3);
+
+//4.遍历数组。
+int count1 = 0;
+foreach (var num in nums1)
+{
+    count1++;
+}
+int count2 = 0;
+for (int i = 0; i < nums1.Count; i++)
+{
+    count2++;
+}
+
+//5.拼接列表。
+List<int> nums2 = new List<int>() { 5, 6, 7, 8, 9 };
+nums1.AddRange(nums2);
+
+//6.排序列表。
+nums1.Sort();
