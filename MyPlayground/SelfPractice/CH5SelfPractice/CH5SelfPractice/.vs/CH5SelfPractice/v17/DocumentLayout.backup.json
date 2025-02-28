@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH5SelfPractice\\CH5SelfPractice\\",
+  "WorkspaceRootPath": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH5SelfPractice\\CH5SelfPractice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1200FB7F-F696-4E68-B1E8-A07741E6EEAD}|CH5SelfPractice\\CH5SelfPractice.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\selfpractice\\ch5selfpractice\\ch5selfpractice\\ch5selfpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1200FB7F-F696-4E68-B1E8-A07741E6EEAD}|CH5SelfPractice\\CH5SelfPractice.csproj|solutionrelative:ch5selfpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1200FB7F-F696-4E68-B1E8-A07741E6EEAD}|CH5SelfPractice\\CH5SelfPractice.csproj|c:\\users\\he6106991\\documents\\github\\hello-algo\\myplayground\\selfpractice\\ch5selfpractice\\ch5selfpractice\\ch5selfpractice\\5.1.2.1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1200FB7F-F696-4E68-B1E8-A07741E6EEAD}|CH5SelfPractice\\CH5SelfPractice.csproj|solutionrelative:ch5selfpractice\\5.1.2.1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1200FB7F-F696-4E68-B1E8-A07741E6EEAD}|CH5SelfPractice\\CH5SelfPractice.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\selfpractice\\ch5selfpractice\\ch5selfpractice\\ch5selfpractice\\utils\\listnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1200FB7F-F696-4E68-B1E8-A07741E6EEAD}|CH5SelfPractice\\CH5SelfPractice.csproj|solutionrelative:ch5selfpractice\\utils\\listnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1200FB7F-F696-4E68-B1E8-A07741E6EEAD}|CH5SelfPractice\\CH5SelfPractice.csproj|c:\\users\\he6106991\\documents\\github\\hello-algo\\myplayground\\selfpractice\\ch5selfpractice\\ch5selfpractice\\ch5selfpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1200FB7F-F696-4E68-B1E8-A07741E6EEAD}|CH5SelfPractice\\CH5SelfPractice.csproj|solutionrelative:ch5selfpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,40 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1309828718:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1971414452:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ListNode.cs",
-              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH5SelfPractice\\CH5SelfPractice\\CH5SelfPractice\\utils\\ListNode.cs",
-              "RelativeDocumentMoniker": "CH5SelfPractice\\utils\\ListNode.cs",
-              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH5SelfPractice\\CH5SelfPractice\\CH5SelfPractice\\utils\\ListNode.cs",
-              "RelativeToolTip": "CH5SelfPractice\\utils\\ListNode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH5SelfPractice\\CH5SelfPractice\\CH5SelfPractice\\Program.cs",
+              "RelativeDocumentMoniker": "CH5SelfPractice\\Program.cs",
+              "ToolTip": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH5SelfPractice\\CH5SelfPractice\\CH5SelfPractice\\Program.cs",
+              "RelativeToolTip": "CH5SelfPractice\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T01:31:04.588Z",
+              "WhenOpened": "2025-02-27T15:50:50.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH5SelfPractice\\CH5SelfPractice\\CH5SelfPractice\\Program.cs",
-              "RelativeDocumentMoniker": "CH5SelfPractice\\Program.cs",
-              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH5SelfPractice\\CH5SelfPractice\\CH5SelfPractice\\Program.cs",
-              "RelativeToolTip": "CH5SelfPractice\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Title": "5.1.2.1.cs",
+              "DocumentMoniker": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH5SelfPractice\\CH5SelfPractice\\CH5SelfPractice\\5.1.2.1.cs",
+              "RelativeDocumentMoniker": "CH5SelfPractice\\5.1.2.1.cs",
+              "ToolTip": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH5SelfPractice\\CH5SelfPractice\\CH5SelfPractice\\5.1.2.1.cs",
+              "RelativeToolTip": "CH5SelfPractice\\5.1.2.1.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA5wBkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T02:02:27.718Z",
+              "WhenOpened": "2025-02-27T15:50:22.305Z",
               "EditorCaption": ""
             }
           ]

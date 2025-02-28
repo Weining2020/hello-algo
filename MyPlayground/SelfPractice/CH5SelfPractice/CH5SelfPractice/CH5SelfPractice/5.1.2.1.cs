@@ -10,7 +10,7 @@ namespace CH5SelfPractice
     public class  LinkedListStack
     {
         public ListNode? stackPeek;
-        public int stackSize;
+        public int stackSize = 0;
         public LinkedListStack()
         {
             stackPeek = null;
@@ -21,22 +21,49 @@ namespace CH5SelfPractice
         }
         public bool IsEmpty()
         {
-            return stackSize == 0;
+            return Size() == 0;
         }
-        public int? Peek()
+        public int Peek()
         {
             if (IsEmpty())
             {
-                return null;
+                throw new Exception();
             }
-            return 
+            return stackPeek!.val;
         }
         public void Push(int val)
         {
             ListNode newNode = new ListNode(val);
-            stackPeek.next = newNode;
+            newNode.next = stackPeek;
             stackPeek = newNode;
             stackSize++;
+        }
+
+        public int Pop()
+        {
+            int res = Peek();
+            stackPeek = stackPeek!.next;
+            stackSize--;
+            return res;
+        }
+
+        //把栈转化为数组。
+        public int[] ConvertToArray()
+        {
+            if (IsEmpty())
+            {
+                return Array.Empty<int>();
+            }
+
+            ListNode node = stackPeek;
+            int[] resArray = new int[Size()];
+            for (int i = Size() - 1; i >= 0; i--)
+            {
+                resArray[i] = node.val;
+                node = node.next;
+            }
+
+            return resArray;
         }
 
     }
