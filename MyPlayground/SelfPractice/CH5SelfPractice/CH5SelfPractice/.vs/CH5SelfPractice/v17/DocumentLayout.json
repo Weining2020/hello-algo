@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "CH5SelfPractice\\Program.cs",
               "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH5SelfPractice\\CH5SelfPractice\\CH5SelfPractice\\Program.cs",
               "RelativeToolTip": "CH5SelfPractice\\Program.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAA/wDoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T00:37:45.889Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "CH5SelfPractice\\5.1.2.2.cs",
               "ViewState": "AgIAACgAAAAAAAAAAADwvzMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T23:38:47.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T23:38:47.39Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "CH5SelfPractice\\5.1.2.1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T15:50:22.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T15:50:22.305Z"
             }
           ]
         }
