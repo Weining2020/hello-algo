@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6D9FF8-96FA-442F-A27D-53E0426E07F7}|CH6SelfPractice\\CH6SelfPractice.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\selfpractice\\ch6selfpractice\\ch6selfpractice\\ch6selfpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6D9FF8-96FA-442F-A27D-53E0426E07F7}|CH6SelfPractice\\CH6SelfPractice.csproj|solutionrelative:ch6selfpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6D9FF8-96FA-442F-A27D-53E0426E07F7}|CH6SelfPractice\\CH6SelfPractice.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\selfpractice\\ch6selfpractice\\ch6selfpractice\\ch6selfpractice\\6.1.1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6D9FF8-96FA-442F-A27D-53E0426E07F7}|CH6SelfPractice\\CH6SelfPractice.csproj|solutionrelative:ch6selfpractice\\6.1.1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1309828718:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1971414452:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "6.1.1.cs",
+              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\6.1.1.cs",
+              "RelativeDocumentMoniker": "CH6SelfPractice\\6.1.1.cs",
+              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\6.1.1.cs",
+              "RelativeToolTip": "CH6SelfPractice\\6.1.1.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwB4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T01:37:17.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\Program.cs",
+              "RelativeDocumentMoniker": "CH6SelfPractice\\Program.cs",
+              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\Program.cs",
+              "RelativeToolTip": "CH6SelfPractice\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T01:37:01.433Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
