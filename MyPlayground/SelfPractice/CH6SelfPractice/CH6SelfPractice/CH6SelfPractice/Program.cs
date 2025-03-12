@@ -1,29 +1,95 @@
-﻿//初始化。
-Dictionary<int, string> map = new Dictionary<int, string>()
+﻿
+public class Pair
 {
-    {12345, "Livy" }
-};
-
-//添加。
-map.Add(12346, "Zhu");
-
-//查询。
-string name = map[12345];
-
-//删除。
-//在哈希表中删除键值对(key, Value)。
-map.Remove(12345);
-
-//遍历哈希表。
-foreach (var vk in map)
-{
-    Console.WriteLine(vk.Key + "->" + vk.Value);
+    public int key;
+    public string val;
+    public Pair(int key, string val)
+    {
+        this.key = key;
+        this.val = val;
+    }
 }
-foreach (var key in map.Keys)
+
+public class ArrayHashMap
 {
-    Console.WriteLine("Key is " + key);
-}
-foreach (var val in map.Values)
-{
-    Console.WriteLine("Value is " + val);
+    public List<Pair?> buckets;
+    public ArrayHashMap()
+    {
+        buckets = new List<Pair?>();
+        for (int i = 0; i < 100; i++)   //这好像是直接把空Pair实例放入buckets的尾部吧？这不是正常的初始化吧？
+        {
+            buckets.Add(null);
+        }
+    }
+    
+    //哈希函数hash function。
+    public int HashFun(int key)
+    {
+        return key % 100;
+    }
+    //查询。
+    public string? Find(int key)
+    {
+        int index = HashFun(key);
+        return buckets[index]?.val;
+    }
+    //添加。
+    public void Put(int key, string val)
+    {
+        Pair pair = new Pair(key, val);
+        int index = HashFun(key);
+        buckets[index] = pair;
+    }
+    //移除。
+    public void Remove(int key)
+    {
+        int index = HashFun(key);
+        buckets[index] = null;
+    }
+    //3个返回。
+    public List<Pair> GetPairs()
+    {
+        List<Pair> list = new List<Pair>();
+        foreach (var pair in buckets)
+        {
+            if (pair!= null)
+            {
+                list.Add(pair);
+            }
+        }
+        return list;
+    }
+    public List<int> GetKeys()
+    {
+        List<int> list = new List<int>();
+        foreach (var pair in buckets)
+        {
+            if (pair != null)
+            {
+                list.Add(pair.key);
+            }
+        }
+        return list;
+    }
+    public List<string> GetValues()
+    {
+        List<string> list = new List<string>();
+        foreach (var pair in buckets)
+        {
+            if (pair != null)
+            {
+                list.Add(pair.val);
+            }
+        }
+        return list;
+    }
+    //遍历打印。
+    public void Print()
+    {
+        List<Pair> list = GetPairs();
+        foreach (var pair in list)
+        {
+            Console.WriteLine(pair.key + "->" + pair.val);
+        }
+    }
 }
