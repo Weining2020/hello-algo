@@ -1,95 +1,66 @@
-﻿
-public class Pair
-{
-    public int key;
-    public string val;
-    public Pair(int key, string val)
-    {
-        this.key = key;
-        this.val = val;
-    }
-}
+﻿using CH6SelfPractice.utils;
 
 public class ArrayHashMap
 {
-    public List<Pair?> buckets;
+    int size;
+    int capacity;
+    double loadFactor;
+    int extendRatio;
+    List<List<Pair>> buckets;
     public ArrayHashMap()
     {
-        buckets = new List<Pair?>();
-        for (int i = 0; i < 100; i++)   //这好像是直接把空Pair实例放入buckets的尾部吧？这不是正常的初始化吧？
+        size = 0;
+        capacity = 100;
+        loadFactor = 3.0 / 4.0;
+        extendRatio = 2;
+        buckets = new List<List<Pair>> ();
+        for (int i = 0; i < 100; i++)
         {
-            buckets.Add(null);
+            buckets.Add (new List<Pair> ());
         }
     }
-    
-    //哈希函数hash function。
-    public int HashFun(int key)
+
+    int HashFunc(int key)
     {
-        return key % 100;
+        return key % capacity;
     }
-    //查询。
-    public string? Find(int key)
+    //查询现在的负载因子。
+    double LoadFactor()
     {
-        int index = HashFun(key);
-        return buckets[index]?.val;
+        return (double) size / capacity;
     }
-    //添加。
+    public string? Get(int key)
+    {
+        int index = HashFunc(key);
+        foreach (var pair in buckets[index])
+        {
+            if (pair.key == key)
+            {
+                return pair.val;
+            }
+        }
+        return null;
+    }
     public void Put(int key, string val)
     {
-        Pair pair = new Pair(key, val);
-        int index = HashFun(key);
-        buckets[index] = pair;
-    }
-    //移除。
-    public void Remove(int key)
-    {
-        int index = HashFun(key);
-        buckets[index] = null;
-    }
-    //3个返回。
-    public List<Pair> GetPairs()
-    {
-        List<Pair> list = new List<Pair>();
-        foreach (var pair in buckets)
+        if (LoadFactor() > loadFactor)
         {
-            if (pair!= null)
-            {
-                list.Add(pair);
-            }
+            Extend();
         }
-        return list;
     }
-    public List<int> GetKeys()
+    public void Extend()
     {
-        List<int> list = new List<int>();
-        foreach (var pair in buckets)
+        List<List<Pair>> tempBuckets = buckets;
+        buckets = new List<List<Pair>>();
+        capacity *= extendRatio;
+        buckets = Enumerable.Range(0, capacity).Select(_ => new List<Pair>()).ToList();
+        size = 0;
+        foreach (var bucket in tempBuckets)
         {
-            if (pair != null)
+            foreach (var pair in bucket)
             {
-                list.Add(pair.key);
+                Put(pair.key, pair.val);
             }
-        }
-        return list;
-    }
-    public List<string> GetValues()
-    {
-        List<string> list = new List<string>();
-        foreach (var pair in buckets)
-        {
-            if (pair != null)
-            {
-                list.Add(pair.val);
-            }
-        }
-        return list;
-    }
-    //遍历打印。
-    public void Print()
-    {
-        List<Pair> list = GetPairs();
-        foreach (var pair in list)
-        {
-            Console.WriteLine(pair.key + "->" + pair.val);
         }
     }
 }

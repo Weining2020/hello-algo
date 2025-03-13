@@ -17,7 +17,7 @@ public class ArrayHashMap
     public ArrayHashMap()
     {
         buckets = new List<Pair?>();
-        for (int i = 0; i < 100; i++)   //这好像是直接把空Pair实例放入buckets的尾部吧？这不是正常的初始化吧？
+        for (int i = 0; i < 100; i++)   //这好像是直接把空Pair实例放入buckets的尾部吧？这不是正常的初始化吧？//必须要有这步。
         {
             buckets.Add(null);
         }
