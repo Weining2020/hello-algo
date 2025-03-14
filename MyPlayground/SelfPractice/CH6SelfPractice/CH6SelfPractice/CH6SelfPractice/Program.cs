@@ -47,6 +47,30 @@ public class ArrayHashMap
         {
             Extend();
         }
+        int index = HashFunc(key);
+        foreach (var pair in buckets[index])
+        {
+            if (pair.key == key)
+            {
+                pair.val = val;
+                return;
+            }
+        }
+        buckets[index].Add(new Pair(key, val));
+        size++;
+    }
+    public void Remove(int key)
+    {
+        int index = HashFunc(key);
+        foreach (var pair in buckets[index].ToList())
+        {
+            if (pair.key == key)
+            {
+                buckets[index].Remove(pair);
+                size--;
+                break;
+            }
+        }
     }
     public void Extend()
     {
@@ -60,6 +84,21 @@ public class ArrayHashMap
             foreach (var pair in bucket)
             {
                 Put(pair.key, pair.val);
+            }
+        }
+    }
+    public void Print()
+    {
+        foreach (var pairList in buckets)
+        {
+            List<string> res = new List<string>();
+            foreach (var pair in pairList)
+            {
+                res.Add(pair.key + "->" + pair.val);
+            }
+            foreach (var item in res)
+            {
+                Console.WriteLine(item);
             }
         }
     }

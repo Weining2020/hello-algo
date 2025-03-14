@@ -1,18 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\",
+  "WorkspaceRootPath": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D6D9FF8-96FA-442F-A27D-53E0426E07F7}|CH6SelfPractice\\CH6SelfPractice.csproj|c:\\users\\he6106991\\documents\\github\\hello-algo\\myplayground\\selfpractice\\ch6selfpractice\\ch6selfpractice\\ch6selfpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1D6D9FF8-96FA-442F-A27D-53E0426E07F7}|CH6SelfPractice\\CH6SelfPractice.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\selfpractice\\ch6selfpractice\\ch6selfpractice\\ch6selfpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D6D9FF8-96FA-442F-A27D-53E0426E07F7}|CH6SelfPractice\\CH6SelfPractice.csproj|solutionrelative:ch6selfpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D6D9FF8-96FA-442F-A27D-53E0426E07F7}|CH6SelfPractice\\CH6SelfPractice.csproj|c:\\users\\he6106991\\documents\\github\\hello-algo\\myplayground\\selfpractice\\ch6selfpractice\\ch6selfpractice\\ch6selfpractice\\6.2.1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D6D9FF8-96FA-442F-A27D-53E0426E07F7}|CH6SelfPractice\\CH6SelfPractice.csproj|solutionrelative:ch6selfpractice\\6.2.1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D6D9FF8-96FA-442F-A27D-53E0426E07F7}|CH6SelfPractice\\CH6SelfPractice.csproj|c:\\users\\he6106991\\documents\\github\\hello-algo\\myplayground\\selfpractice\\ch6selfpractice\\ch6selfpractice\\ch6selfpractice\\utils\\pair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D6D9FF8-96FA-442F-A27D-53E0426E07F7}|CH6SelfPractice\\CH6SelfPractice.csproj|solutionrelative:ch6selfpractice\\utils\\pair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,42 +17,24 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Pair.cs",
-              "DocumentMoniker": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\utils\\Pair.cs",
-              "RelativeDocumentMoniker": "CH6SelfPractice\\utils\\Pair.cs",
-              "ToolTip": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\utils\\Pair.cs",
-              "RelativeToolTip": "CH6SelfPractice\\utils\\Pair.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T14:54:06.224Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:1309828718:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "6.2.1.cs",
-              "DocumentMoniker": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\6.2.1.cs",
-              "RelativeDocumentMoniker": "CH6SelfPractice\\6.2.1.cs",
-              "ToolTip": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\6.2.1.cs",
-              "RelativeToolTip": "CH6SelfPractice\\6.2.1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T14:53:37.924Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:1971414452:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\Program.cs",
               "RelativeDocumentMoniker": "CH6SelfPractice\\Program.cs",
-              "ToolTip": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\Program.cs",
+              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\CH6SelfPractice\\Program.cs",
               "RelativeToolTip": "CH6SelfPractice\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwCQAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T14:39:28.425Z",
+              "WhenOpened": "2025-03-14T01:20:54.286Z",
               "EditorCaption": ""
             }
           ]
