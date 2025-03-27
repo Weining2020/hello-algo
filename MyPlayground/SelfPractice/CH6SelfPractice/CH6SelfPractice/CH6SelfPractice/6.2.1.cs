@@ -1,39 +1,37 @@
 ﻿/*
 using CH6SelfPractice.utils;
+using System.IO.Pipes;
 
-public class ArrayHashMap
+public class HashMapChaining
 {
     int size;
-    int capacity;
-    double loadFactor;
-    int extendRatio;
+    int capacity = 4;
+    int extendRatio = 2;
+    double loadThres = 3.0 / 4.0;
     List<List<Pair>> buckets;
-    public ArrayHashMap()
+
+    public HashMapChaining()
     {
         size = 0;
-        capacity = 100;
-        loadFactor = 3.0 / 4.0;
-        extendRatio = 2;
-        buckets = new List<List<Pair>> ();
-        for (int i = 0; i < 100; i++)
+        buckets = new List<List<Pair>>();
+        for (int i = 0; i < capacity; i++)
         {
-            buckets.Add (new List<Pair> ());
+            buckets.Add(new List<Pair>());
         }
     }
 
-    int HashFunc(int key)
+    public int HashFunc(int key)
     {
         return key % capacity;
     }
-    //查询现在的负载因子。
-    double LoadFactor()
+    public double LoadFactor()
     {
-        return (double) size / capacity;
+        return (double)size / capacity;
     }
-    public string? Get(int key)
+    public string? Get(int key, string value)
     {
         int index = HashFunc(key);
-        foreach (var pair in buckets[index])
+        foreach (Pair pair in buckets[index])
         {
             if (pair.key == key)
             {
@@ -42,44 +40,67 @@ public class ArrayHashMap
         }
         return null;
     }
-    public void Put(int key, string val)
+    public void Put(int key, string value)
     {
-        if (LoadFactor() > loadFactor)
+        if (LoadFactor() > loadThres)
         {
             Extend();
         }
         int index = HashFunc(key);
-        foreach (var pair in buckets[index])
+        foreach (Pair pair in buckets[index])
         {
             if (pair.key == key)
             {
-                pair.val = val;
+                pair.val = value;
                 return;
             }
         }
-        buckets[index].Add(new Pair(key, val));
+        buckets[index].Add(new Pair(key, value));
         size++;
     }
     public void Remove(int key)
     {
         int index = HashFunc(key);
-        foreach (var pair in buckets[index].ToList())
+        foreach (Pair pair in buckets[index].ToList())
         {
             if (pair.key == key)
             {
                 buckets[index].Remove(pair);
                 size--;
-                break;
+                return;
             }
         }
     }
+    //public void Extend()
+    //{
+    //    List<List<Pair>> tempBuckets = new List<List<Pair>>();
+    //    capacity *= extendRatio;
+    //    size = 0;
+    //    foreach (List<Pair> bucket in buckets)
+    //    {
+    //        List<Pair> newBucket = new List<Pair>();
+    //        foreach (Pair pair in bucket)
+    //        {
+    //            if (pair != null)
+    //            {
+    //                newBucket.Add(pair);
+    //                size++;
+    //            }
+    //        }
+    //        tempBuckets.Add(newBucket);
+    //    }
+    //}
     public void Extend()
     {
         List<List<Pair>> tempBuckets = buckets;
-        buckets = new List<List<Pair>>();
         capacity *= extendRatio;
-        buckets = Enumerable.Range(0, capacity).Select(_ => new List<Pair>()).ToList();
+        buckets = new List<List<Pair>>(capacity);
+        for (int i = 0; i < capacity; i++)
+        {
+            buckets.Add(new List<Pair>());
+        }
         size = 0;
+
         foreach (var bucket in tempBuckets)
         {
             foreach (var pair in bucket)
@@ -90,10 +111,10 @@ public class ArrayHashMap
     }
     public void Print()
     {
-        foreach (var pairList in buckets)
+        foreach (var bucket in buckets)
         {
             List<string> res = new List<string>();
-            foreach (var pair in pairList)
+            foreach (var pair in bucket)
             {
                 res.Add(pair.key + "->" + pair.val);
             }
@@ -104,5 +125,4 @@ public class ArrayHashMap
         }
     }
 }
-
 */
