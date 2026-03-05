@@ -8,23 +8,23 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\LZLZL\\.nuget\\packages\\": {},
+    "C:\\Users\\he6106991\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LZLZL\\OneDrive\\文档\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\CH2SelfPractice.csproj",
+      "projectUniqueName": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\CH2SelfPractice.csproj",
       "projectName": "CH2SelfPractice",
-      "projectPath": "C:\\Users\\LZLZL\\OneDrive\\文档\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\CH2SelfPractice.csproj",
-      "packagesPath": "C:\\Users\\LZLZL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LZLZL\\OneDrive\\文档\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\obj\\",
+      "projectPath": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\CH2SelfPractice.csproj",
+      "packagesPath": "C:\\Users\\he6106991\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\LZLZL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\he6106991\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

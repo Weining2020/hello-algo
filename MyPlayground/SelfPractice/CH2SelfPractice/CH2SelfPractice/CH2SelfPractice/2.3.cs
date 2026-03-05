@@ -27,5 +27,50 @@ int ExponentialRecursiveFormula(int n, int bas)
     {
         return 0;
     }
+
     return bas + ExponentialRecursiveFormula(n - 1, bas * 2);
 }
+
+// 对数阶。
+int Logarithmic(int n)
+{
+    int count = 0;
+    while (n > 1)
+    {
+        n /= 2;
+        count++;
+    }
+
+    return count;
+}
+
+// 用递推来优化了Logarithmic写法。
+int LogRecur(int n)
+{
+    // 终止条件：n 已经不能再被有意义地砍了
+    if (n <= 1)
+    {
+        return 0;
+    }
+
+    // 递推：当前砍一刀（+1），剩下的交给子问题（n/2）
+    return 1 + LogRecur(n / 2);
+}
+
+// 线性对数阶。
+int LinearLogar(int n)
+{
+    if (n <= 1)
+    {
+        return 1;
+    }
+
+    int count = LinearLogar(n / 2) + LinearLogar(n / 2);
+    for (int i = 0; i < n; i++)
+    {
+        count++;
+    }
+
+    return count;
+}
+*/
