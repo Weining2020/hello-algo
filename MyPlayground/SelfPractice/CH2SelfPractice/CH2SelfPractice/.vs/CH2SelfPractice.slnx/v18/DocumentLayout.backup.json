@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CABB1009-14FA-E297-1121-BCB0107E01B4}|CH2SelfPractice\\CH2SelfPractice.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\selfpractice\\ch2selfpractice\\ch2selfpractice\\ch2selfpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CABB1009-14FA-E297-1121-BCB0107E01B4}|CH2SelfPractice\\CH2SelfPractice.csproj|solutionrelative:ch2selfpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CABB1009-14FA-E297-1121-BCB0107E01B4}|CH2SelfPractice\\CH2SelfPractice.csproj|c:\\users\\lzlzl\\onedrive\\\u6587\u6863\\github\\hello-algo\\myplayground\\selfpractice\\ch2selfpractice\\ch2selfpractice\\ch2selfpractice\\2.2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CABB1009-14FA-E297-1121-BCB0107E01B4}|CH2SelfPractice\\CH2SelfPractice.csproj|solutionrelative:ch2selfpractice\\2.2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "2.2.cs",
+              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\2.2.cs",
+              "RelativeDocumentMoniker": "CH2SelfPractice\\2.2.cs",
+              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\2.2.cs",
+              "RelativeToolTip": "CH2SelfPractice\\2.2.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAUwFUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T20:36:33.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\Program.cs",
+              "RelativeDocumentMoniker": "CH2SelfPractice\\Program.cs",
+              "ToolTip": "C:\\Users\\LZLZL\\OneDrive\\\u6587\u6863\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\Program.cs",
+              "RelativeToolTip": "CH2SelfPractice\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T20:36:04.332Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
