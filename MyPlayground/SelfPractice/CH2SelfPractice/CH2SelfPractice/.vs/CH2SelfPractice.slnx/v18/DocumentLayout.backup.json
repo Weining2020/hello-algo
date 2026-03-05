@@ -22,12 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -67,12 +63,16 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\Program.cs",
               "RelativeDocumentMoniker": "CH2SelfPractice\\Program.cs",
-              "ToolTip": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\Program.cs*",
-              "RelativeToolTip": "CH2SelfPractice\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\he6106991\\Documents\\GitHub\\hello-algo\\MyPlayground\\SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\CH2SelfPractice\\Program.cs",
+              "RelativeToolTip": "CH2SelfPractice\\Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAqwCgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-03T20:36:04.332Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         }

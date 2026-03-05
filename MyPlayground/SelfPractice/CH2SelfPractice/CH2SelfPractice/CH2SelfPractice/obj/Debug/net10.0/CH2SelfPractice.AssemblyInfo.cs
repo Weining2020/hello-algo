@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CH2SelfPractice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53b74f3a0310e6dcf9856a91fa925efff715be45")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a25473d963c61da2c292322bf1e712b81520ab05")]
 [assembly: System.Reflection.AssemblyProductAttribute("CH2SelfPractice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CH2SelfPractice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
