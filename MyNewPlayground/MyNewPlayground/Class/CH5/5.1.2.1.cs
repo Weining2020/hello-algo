@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MyNewPlayground.Class.CH5
 {
-    internal class _512
+    internal class _5121
     {
         /*
 //基于链表的实现 //基于链表的实现代码，有一个特点就是一定会有一个field用来管理长度。对于基于“数组”的实现代码，就不需要这个field因为“数组”可以轻易获取到长度。
