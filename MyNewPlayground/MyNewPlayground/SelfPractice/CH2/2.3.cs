@@ -115,6 +115,18 @@ int ExponentialRecursiveFormula(int n, int bas)
 }
 
 // 7.阶乘阶。常出现于递归。
+// Question: 计算 n 个不同元素的全排列数量。
+// 循环写法。
+int Factorial(int n)
+{
+    int count = 1;
+    for (int i = n; i > 0; i--)
+    {
+        count *= i;
+    }
+    return count;
+}
+// 递归写法。
 int FactorialRecur(int n)
 {
     if (n == 0)
@@ -124,9 +136,9 @@ int FactorialRecur(int n)
     int count = 0;
     for (int i = 0; i < n; i++)
     {
-        count += FactorialRecur(n - 1);
+        count += FactorialRecur(n - 1); // 我们是观察 “count+=” 被调用多少次，而判断出这是阶乘阶的时间复杂度。可以用FactorialRecur(3)来举个例子帮助理解。
     }
-    return count;
+    return count;   
 }
 */
     }
