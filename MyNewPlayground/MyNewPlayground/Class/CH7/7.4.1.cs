@@ -100,9 +100,9 @@ void Remove(int num)
     }
 
     //该节点的度为0或1时，我发现两种情况可以写在一起处理。
-    if (cur.left == null || cur.right == null)
+    if (cur.left == null || cur.right == null) //我错写成了if (cur.left != null || cur.right != null)。
     {
-        TreeNode? child = cur.left ?? cur.right;
+        TreeNode? child = cur.left ?? cur.right; //此时child是可以正常成为null的，我们借助这个child来实现替换。
         if (cur != root)
         {
             if (pre.left == cur)
