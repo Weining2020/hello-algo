@@ -17,7 +17,7 @@ void DFS(GraphAdjList graph, HashSet<Vertex> visited, List<Vertex> res, Vertex v
 {
     res.Add(vet);
     visited.Add(vet);
-    foreach (Vertex adjVet in graph.adjList[vet])
+    foreach (Vertex adjVet in graph.adjList[vet])   //foreach 只是"找邻居"的工具，不代表 BFS；决定DFS还是BFS的是递归调用的时机。
     {
         if (visited.Contains(adjVet))
         {

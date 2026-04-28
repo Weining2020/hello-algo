@@ -35,9 +35,9 @@ public class GraphAdjMat
     void AddVertex(int val)
     {
         int size = Size();
-        vertices.Add(val);
+        vertices.Add(val); //《Hello 算法》这里的目标是演示邻接矩阵的核心操作（增删顶点/边），所以故意省略了防御性检查是否该顶点已经存在，保持代码最简。不检查是教程简化的设计选择，结构不会崩，但实际项目里应该加校验。你的直觉是对的 。
 
-        List<int> newRow = new(Enumerable.Repeat(0, size));
+        List<int> newRow = new(Enumerable.Repeat(0, size)); //20260428补充：这里使用“new(Enumerable.Repeat(0, size))”填充n个0没问题，不是非得像教程那样写成循环。
         adjMat.Add(newRow);
         foreach (List<int> row in adjMat)
         {
